@@ -1,0 +1,109 @@
+commit a5eb71e808420a30c028549ff5d5ff7241c067d2
+Author: pabloqpacin <pabloqpacin@zohomail.eu>
+Date:   Wed Jan 4 20:22:38 2023 +0100
+
+    Last changes 2022:
+    
+    - package-lock.json
+    - TWT/settings & urls
+    - Create Frontend app: src/components,index.js, static/css,main.js, templates/frontend/index, urls,views.py
+    
+    NODE mess big time, ragequit, should continue in summer aye
+
+commit bf99bb7182112fdcbb3bbddd0d88d5e095650de0
+Author: pabloqpacin <pabloqpacin@zohomail.eu>
+Date:   Sat Dec 17 16:38:13 2022 +0100
+
+    Switch to branch WIP-NODE for # Part 3, create FRONTEND app; create docs/wip-node.md for further documentation
+    
+    - create FRONTEND app + nested directories (static, templates) and subnested (...)
+    - install nvm
+    - init nvm
+    - install node modules: react, (...)
+    - update .gitignore
+    - create ?.config.json
+
+commit 07f32ffea4d18e053f93b24aa92f2b3d32102b15
+Author: pabloqpacin <pabloqpacin@zohomail.eu>
+Date:   Fri Dec 16 17:31:39 2022 +0100
+
+    Create first Room via browser, return Room list (model view); end # Part 2
+
+commit 0efde803f58e93408b643e108501c5a7a9e68492
+Author: pabloqpacin <pabloqpacin@zohomail.eu>
+Date:   Fri Dec 16 14:11:09 2022 +0100
+
+    Create API/serializers.py, modify API/views.py and API/urls.py
+    
+    - serializers.py: will turn our model's class atributes into JSON format
+    - views.py: return model Room as VIEW
+    - urls.py: tweak ROUTES to return our Room
+    - TEST SERVER: POSITIVE!
+
+commit 18b3c89cba814d255ee2d9a4a152a540db2c5d75
+Author: pabloqpacin <pabloqpacin@zohomail.eu>
+Date:   Fri Dec 16 01:44:51 2022 +0100
+
+    Create ROOM model in API/models.py, make-migrations; start # Part 2
+    
+    - Create class Room in API.models.py, which includes 5 atributes (with respective constraints)
+    - Also define generate_unique_code function, which happens to be a while-loop
+    - Run python manage.py makemigrations, then python manage.py migrate
+
+commit cc24f492e8adf121a666e1568a37bb5e7b58a546
+Author: pabloqpacin <pabloqpacin@zohomail.eu>
+Date:   Fri Dec 16 00:23:38 2022 +0100
+
+    Tinker with VIEWS and ROUTES, complete TUTO # Part 1
+    
+    - modify API/views.py message while LIVE on development server
+    - tweak ROUTES/PATH/URLs in TWT/urls.py, API/urls.py
+
+commit 08111b085fc6827a54a90b341d0951c79a93c1e0
+Author: pabloqpacin <pabloqpacin@zohomail.eu>
+Date:   Thu Dec 15 17:24:48 2022 +0100
+
+    Create /tools/DJRE-setup.7z install-files, improve README.md and /docs
+    
+    - Create /tools, create tools/DJRE-setup.7z installation files.
+    - Improve README.md: wrap up #DJRE-setup and improve #wip-twt.
+    - Improve /docs: standardize setup-related names, wrap up setup-readme.txt and update git-gud.md.
+
+commit 60d2d1ce35a6390bb1ddc32554add40e329ab5dc
+Author: pabloqpacin <pabloqpacin@zohomail.eu>
+Date:   Thu Dec 15 14:16:28 2022 +0100
+
+    Create alt dev-server landing page (TWT+API mods), improve 'install_DJRE.sh'
+    
+    - in 'TWT', tweak 'urls.py' & 'settings.py'; in 'API', tweak 'urls.py' & 'settings.py'; therefore dev-server landing page isn't default Django admin but custom '<h1>supdawg</h1>'.
+    - improve 'install_DJRE.sh': create if-statement to advise running 'script' before proceeding at all.
+
+commit 0dde9c61fb128ea5f495845b8292314db630e005
+Author: pabloqpacin <pabloqpacin@zohomail.eu>
+Date:   Wed Dec 14 17:49:03 2022 +0100
+
+    Start-continue TWT-TUTORIAL, from #1 'startapp API' onwards
+
+commit e4b6fa23db9782306d38ab1de181001aca834f8c
+Author: pabloqpacin <pabloqpacin@zohomail.eu>
+Date:   Wed Dec 14 06:43:43 2022 +0100
+
+    Elaborate 'README.md' & prepare 'docs/'
+    
+    - README: introduction, 'contribute', setup-related checklist, outline current status and TWT-TUTO.
+    - docs/: include 'DJRE-scripts' instructions, update documentation especially 'gitSetup.md', copypaste 'wip-twt.md' (core of future development) from github.com/pabloqpacin/mewebsey.
+
+commit 188ee21842cc54d2b812cf96120d7aad76c42267
+Author: pabloqpacin <pabloqpacin@zohomail.eu>
+Date:   Wed Dec 14 05:01:58 2022 +0100
+
+    Run 'install_DJRE.sh' & follow 'modPyGit.md'
+    
+    - Create root-dir, Python-venv, install Django, startproject & startapp.
+    - Create gitignore, secure SECRET_KEY, create Github remote & local git repo.
+
+commit 092ce43fe62dbfb87479fae346bea9ffce095a89
+Author: Pablo QP <110383181+pabloqpacin@users.noreply.github.com>
+Date:   Wed Dec 14 04:41:34 2022 +0100
+
+    Initial commit
