@@ -22,7 +22,7 @@ sudo apt install python3-pip python3-venv
 pip list
 
 # Create and change to new project root directory
-mkdir -p ~/PQP/OhMyDjango && cd "$_" && pwd
+mkdir -p ~/foo/DjangoSetupBS && cd "$_" && pwd
 
 # Create and activate Python virtual environment; see current (.venv) Python packages
 python3 -m venv .venv
@@ -51,7 +51,7 @@ mkdir docs pkg scripts
 touch .env
 
 # Create README.md
-now=$(date) && echo -e "# Django Setup\n\n$now\n\nWow, such empty..." > README.md
+now=$(date) && echo -e "# Django Setup BS\n\n$now\n\nWow, such empty..." > README.md
 
 # Create .gitignore
 echo "# Byte-compiled / optimized / DLL files
@@ -85,7 +85,7 @@ bundles/
 
 # CUSTOM
 test/
-bk/
+bak/
 " > .gitignore
 
 # Last words

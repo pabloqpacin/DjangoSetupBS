@@ -22,7 +22,7 @@ load_dotenv()
 
 1. [ ] Activate (.venv) if necessary:
 ```bash
-cd ~/PWP/OhMyDjango
+cd ~/foo/DjangoSetupBS
 source .venv/bin/activate
 ```
 
