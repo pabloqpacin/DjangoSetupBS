@@ -39,7 +39,7 @@ pip list && pip freeze > requirements.txt
 # Create Django project & first webapp (CHANGE THE NAMES!)
 django-admin startproject web_project .
     # Mind the "." to avoid nested directories
-django-admin startapp first_app || python3 manage.py startapp first_app
+django-admin startapp first_webapp || python3 manage.py startapp first_webapp
 
 
 
@@ -47,7 +47,7 @@ django-admin startapp first_app || python3 manage.py startapp first_app
 ## PART-3
 
 # Create relevant directories (where the .7z package contents might go!) and .env to later protect the SECRET_KEY
-mkdir docs scripts
+mkdir docs pkg scripts
 touch .env
 
 # Create README.md

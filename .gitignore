@@ -1,2 +1,6 @@
-# CUSTOM
+
 # bak/
+
+# Ignore all .todo and .log files
+*.todo
+*.log
